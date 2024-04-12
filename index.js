@@ -5,7 +5,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 
-const target = 'https://www.blackbox.ai/';
+const target = 'https://bh3igq-ip-107-167-189-94.tunnelmole.net/';
 
 // Create the proxy middleware
 const mathProxy = createProxyMiddleware({
