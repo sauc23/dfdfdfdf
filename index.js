@@ -5,7 +5,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 
-const target = 'https://bh3igq-ip-107-167-189-94.tunnelmole.net/';
+const target = 'https://angry-sloth-26.telebit.io/';
 
 // Create the proxy middleware
 const mathProxy = createProxyMiddleware({
