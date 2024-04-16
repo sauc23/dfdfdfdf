@@ -5,7 +5,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 
-const target = 'https://angry-sloth-26.telebit.io/';
+const target = 'http://66.135.19.140/';
 
 // Create the proxy middleware
 const mathProxy = createProxyMiddleware({
