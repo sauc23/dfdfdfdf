@@ -5,7 +5,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 
-const target = 'http://64.176.217.185:1234/';
+const target = 'http://64.176.217.185:1234/stream/';
 
 // Create the proxy middleware
 const mathProxy = createProxyMiddleware({
